@@ -1,2 +1,1 @@
-# csgo
-My autoexec and othe cfg files.
+My autoexec and other cfg files.
