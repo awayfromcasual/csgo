@@ -11,4 +11,4 @@ indent_size = 2
 [*.cfg]
 charset = utf-8
 indent_style = tab
-indent_size = 4
+indent_size = 12
