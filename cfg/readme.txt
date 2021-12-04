@@ -1,2 +1,3 @@
+autoexec.cfg -> My settings. Use [exec _autoexec] in console.
 commands.cfg -> Custom commands. Add [exec _commands] to steam launch settings or to launch.cfg file.
-launch.cfg   -> Blank launch.cfg template. Add [exec _launch] to CS:GO steam launch settings.
+launch.cfg   -> My launch settings. Add [exec _launch] to CS:GO steam launch settings.
