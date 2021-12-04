@@ -1,2 +1,2 @@
-commands.cfg -> Custom alias commands to be used as binds or in the console. Add [exec _commands] to steam launch settings or to launch.cfg file.
-launch.cfg   -> Blank template to add launch settings. Add [exec _launch] to CS:GO steam launch settings.
+commands.cfg -> Custom commands. Add [exec _commands] to steam launch settings or to launch.cfg file.
+launch.cfg   -> Blank launch.cfg template. Add [exec _launch] to CS:GO steam launch settings.
