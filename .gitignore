@@ -1,2 +1,5 @@
-# Windows scripts
+# Windows Batch File
+*.bat
+
+# Shell Script
 *.sh
