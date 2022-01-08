@@ -3,11 +3,6 @@ root = true
 [*]
 insert_final_newline = true
 
-[*.txt]
-charset = utf-8
-indent_style = tab
-indent_size = 2
-
 [*.cfg]
 charset = utf-8
 indent_style = tab
