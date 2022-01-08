@@ -1,4 +1,7 @@
+
+.gitignore
+ref/
+
 *.bat
 *.sh
 *.zip
-ref/
