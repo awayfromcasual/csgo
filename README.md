@@ -3,9 +3,9 @@
 These are my Counter-Strike settings. To use my custom .cfg files, go to where Steam is installed and copy the contents of the `cfg` and `modes` directories into one of two cfg folders:
 
 - `\...\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\cfg`
-	- This folder is where steam stores most of the configurations for different gamemodes (competitive, casual, deathmatch, etc), as well as the default config. I prefer using this folder because it is shared between accounts.
+	- This folder is where Steam stores most of the configurations for different gamemodes (competitive, casual, deathmatch, etc), as well as the default config. I prefer using this folder because it is shared between accounts.
 - `\...\Steam\userdata\<your steam id>\730\local\cfg`
-	- This folder is where steam stores your config.cfg and video.txt files. Most guides suggest using this folder because this is where your configuration files are stored.
+	- This folder is where Steam stores your config.cfg and video.txt files. Most guides suggest using this folder because this is where your configuration files are stored.
 
 Once the files are copied, to use the commands in _commands.cfg, either add `exec _commands` to your launch options, or use a cumulative `_launch.cfg` as I explain below.
 
@@ -84,4 +84,6 @@ I also use an add-on called Simple Radar. Simple Radar a customization that repl
 
 [Simple Radar 5.2](https://readtldr.gg/simpleradar-download) (Password: **gooseman**)
 
-To use Simple Radar, copy the files from the download into `\...\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\resource\overviews`.
+To use Simple Radar, copy the files from the download into this folder:
+
+`\...\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\resource\overviews`
