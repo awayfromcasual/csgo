@@ -32,7 +32,7 @@ Here are my launch options: `-high -nojoy -novid -d3d9ex -tickrate 128 +exec _la
 - `-d3d9ex` - Makes alt-tab instantaneous. Might also improve FPS.
 - `-tickrate 128` - Sets the tick rate for local servers to 128 instead of the default 64.
 
-### FPS Boosting launch options:
+### FPS boosting launch options:
 
 Some people (including myself) find FPS improvements with the following launch options:
 
