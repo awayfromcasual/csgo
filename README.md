@@ -84,4 +84,4 @@ I also use an add-on called Simple Radar. Simple Radar a customization that repl
 
 [Simple Radar 5.2](https://readtldr.gg/simpleradar-download) (Password: **gooseman**)
 
-To use Simple Radar, copy the files from the download into `\...\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\resource\overviews`
+To use Simple Radar, copy the files from the download into `\...\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\resource\overviews`.
