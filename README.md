@@ -20,7 +20,7 @@ Here is a list of the files in this repository:
 - `_1v1-default.cfg` - Config file for setting up a 1v1 server.
 - `_practice.cfg` - Config file for setting up a practice server (max money, infinite ammo, grenade trajectory, etc).
 
-## Launch options
+## Launch Options
 
 Open Steam, go to your library, right click on CS:GO, and click "Properties". Launch options are entered in the box at the bottom of the "General" tab.
 
@@ -35,7 +35,7 @@ Here is an explanation of each individual option:
 - `-tickrate 128` - Sets the tick rate for local servers to 128 instead of the default 64.
 - `+exec _launch` - Executes my launch options file (sets fps_max and loads my commands).
 
-### Using a dedicated launch.cfg file
+### Using a dedicated launch.cfg file:
 
 Many guides suggest adding `exec autoexec` to your launch options so that your settings always update when you launch the game. I prefer to use a separate `_launch.cfg` file, which only includes commands that I want reset every launch (cl_crosshaircolor, fps_max, etc). This allows me to experiment with changing settings without having those settings reset every time I close the game.
 
@@ -75,6 +75,6 @@ These video settings are not optimized for visibility. These are just the settin
 
 ## Simple Radar
 
-I also use an add-on called Simple Radar. Simple Radar a customization that replaces the default radar with an improved radar that is more accurate and easier to read.
+I also use an add-on called Simple Radar. Simple Radar a customization that replaces the default radar with an improved radar that is more accurate and easier to read. It also just looks more modern than the default CS:GO radar.
 
 [Simple Radar 5.2](https://readtldr.gg/simpleradar-download) (Password: **gooseman**)
