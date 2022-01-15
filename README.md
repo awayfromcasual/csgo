@@ -1,11 +1,13 @@
 # My Counter-Strike Settings
 
-These are my Counter-Strike settings. To use my custom .cfg files, go to where Steam is installed and copy the contents of the `cfg` and `modes` directories into one of two folders.
+These are my Counter-Strike settings. To use my custom .cfg files, go to where Steam is installed and copy the contents of the `cfg` and `modes` directories into one of two cfg folders:
 
 - `\...\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\cfg`
-	- This folder is where steam stores most of the configurations for different gamemodes (competitive, casual, deathmatch, etc.) as well as the default config. I prefer using this folder because it is shared between accounts.
+	- This folder is where steam stores most of the configurations for different gamemodes (competitive, casual, deathmatch, etc), as well as the default config. I prefer using this folder because it is shared between accounts.
 - `\...\Steam\userdata\<your steam id>\730\local\cfg`
 	- This folder is where steam stores your config.cfg and video.txt files. Most guides suggest using this folder because this is where your configuration files are stored.
+
+Once the files are copied, to use the commands in _commands.cfg, either add `exec _commands` to your launch options, or use a cumulative `_launch.cfg` as I explain below.
 
 ## Files
 
@@ -32,6 +34,10 @@ Here is an explanation of each individual option:
 - `-d3d9ex` - Makes alt-tab instantaneous. Might also improve FPS.
 - `-tickrate 128` - Sets the tick rate for local servers to 128 instead of the default 64.
 - `+exec _launch` - Executes my launch options file (sets fps_max and loads my commands).
+
+### Using a dedicated launch.cfg file
+
+Many guides suggest adding `exec autoexec` to your launch options so that your settings always update when you launch the game. I prefer to use a separate `_launch.cfg` file, which only includes commands that I want reset every launch (cl_crosshaircolor, fps_max, etc). This allows me to experiment with changing settings without having those settings reset every time I close the game.
 
 ## Graphics Settings
 
