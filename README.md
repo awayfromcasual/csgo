@@ -24,16 +24,21 @@ Here is a list of the files in this repository:
 
 Open Steam, go to your library, right click on CS:GO, and click "Properties". Launch options are entered in the box at the bottom of the "General" tab.
 
-Here are my launch options: `-high -nojoy -novid -d3d9ex -tickrate 128 +exec _launch`
+Here are my launch options: `-novid -d3d9ex -tickrate 128 +exec _launch`
 
 Here is an explanation of each individual option:
 
-- `-high` - Sets CS:GO to run at high priority, which improves FPS.
-- `-nojoy` - Disables joystick support, which improves FPS.
 - `-novid` - Disables the intro, which makes loading the game faster.
 - `-d3d9ex` - Makes alt-tab instantaneous. Might also improve FPS.
 - `-tickrate 128` - Sets the tick rate for local servers to 128 instead of the default 64.
 - `+exec _launch` - Executes my launch options file (sets fps_max and loads my commands).
+
+### FPS Boosting launch options
+
+Some people find FPS improvements with the following launch options:
+
+- `-high` - Sets CS:GO to run at high priority, which improves FPS.
+- `-nojoy` - Disables joystick support, which improves FPS.
 
 ### Using a dedicated launch.cfg file:
 
@@ -78,3 +83,5 @@ These video settings are not optimized for visibility. These are just the settin
 I also use an add-on called Simple Radar. Simple Radar a customization that replaces the default radar with an improved radar that is more accurate and easier to read. It also just looks more modern than the default CS:GO radar.
 
 [Simple Radar 5.2](https://readtldr.gg/simpleradar-download) (Password: **gooseman**)
+
+To use Simple Radar, copy the files from the download into `\...\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\resource\overviews`
