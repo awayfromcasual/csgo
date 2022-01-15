@@ -37,8 +37,10 @@ Here is an explanation of each individual option:
 
 Some people find FPS improvements with the following launch options:
 
-- `-high` - Sets CS:GO to run at high priority, which improves FPS.
-- `-nojoy` - Disables joystick support, which improves FPS.
+- `-high` - Sets CS:GO to run at high priority, which may improve FPS.
+- `-nojoy` - Disables joystick support, which may improve FPS.
+
+Personally I found my FPS would only change by ±1%, but your results may differ.
 
 ### Using a dedicated launch.cfg file:
 
