@@ -24,27 +24,26 @@ Here is a list of the files in this repository:
 
 Open Steam, go to your library, right click on CS:GO, and click "Properties". Launch options are entered in the box at the bottom of the "General" tab.
 
-Here are my launch options: `-novid -d3d9ex -tickrate 128 +exec _launch`
+Here are my launch options: `-high -nojoy -novid -d3d9ex -tickrate 128 +exec _launch`
 
-Here is an explanation of each individual option:
+### Important launch options:
 
 - `-novid` - Disables the intro, which makes loading the game faster.
 - `-d3d9ex` - Makes alt-tab instantaneous. Might also improve FPS.
 - `-tickrate 128` - Sets the tick rate for local servers to 128 instead of the default 64.
-- `+exec _launch` - Executes my launch options file (sets fps_max and loads my commands).
 
-### FPS Boosting launch options
+### FPS Boosting launch options:
 
-Some people find FPS improvements with the following launch options:
+Some people (including myself) find FPS improvements with the following launch options:
 
 - `-high` - Sets CS:GO to run at high priority, which may improve FPS.
 - `-nojoy` - Disables joystick support, which may improve FPS.
 
-Personally I found my FPS would only change by ±1%, but your results may differ.
-
 ### Using a dedicated launch.cfg file:
 
-Many guides suggest adding `exec autoexec` to your launch options so that your settings always update when you launch the game. I prefer to use a separate `_launch.cfg` file, which only includes commands that I want reset every launch (cl_crosshaircolor, fps_max, etc). This allows me to experiment with changing settings without having those settings reset every time I close the game.
+Many guides suggest using `exec autoexec` so your settings always reset when you launch the game. I prefer to use a separate `_launch.cfg` file, which only includes commands that I want reset every launch (cl_crosshaircolor, fps_max, etc). This lets me change settings without them resetting every time I restart the game.
+
+- `+exec _launch` - Executes my launch options file (sets fps_max and loads my commands).
 
 ## Graphics Settings
 
