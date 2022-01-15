@@ -56,8 +56,11 @@ Here are my video settings:
 
 These video settings are not optimized for visibility. These are just the settings that I prefer to use. If you are interested, here are some videos that explain the optimal settings for in-game visibility:
 
-[MrMaxim's 2022 CS:GO Setup Guide](https://www.youtube.com/watch?v=_NDlFy-Mc5Q)
 [ALBU Performance's Settings Benchmark](https://www.youtube.com/watch?v=e2e26BGdPxk)
+
+[MrMaxim's 2022 CS:GO Setup Guide](https://www.youtube.com/watch?v=_NDlFy-Mc5Q)
+
+[Voo's 2021 GS:GO Settings Guide](https://www.youtube.com/watch?v=aqTLaUDGPiM)
 
 ## Simple Radar
 
