@@ -4,7 +4,7 @@ These are my Counter-Strike settings. To use my custom .cfg files, go to where S
 
 - `\...\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\cfg`
 	- This folder is where steam stores most of the configurations for different gamemodes (competitive, casual, deathmatch, etc.) as well as the default config. I prefer using this folder because it is shared between accounts.
-- `\Steam\userdata\<your steam id>\730\local\cfg`
+- `\...\Steam\userdata\<your steam id>\730\local\cfg`
 	- This folder is where steam stores your config.cfg and video.txt files. Most guides suggest using this folder because this is where your configuration files are stored.
 
 ## Files
