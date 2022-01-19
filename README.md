@@ -41,7 +41,7 @@ Some people (including myself) find FPS improvements with the following launch o
 
 ### Using a dedicated launch.cfg file:
 
-Many guides suggest using `exec autoexec` so your settings always reset when you launch the game. I prefer to use a separate `_launch.cfg` file, which only includes commands that I want reset every launch (cl_crosshaircolor, fps_max, etc). This lets me change settings without them resetting every time I restart the game.
+Many guides suggest using `exec autoexec` so your settings always reset when you launch the game. I prefer to use a separate `_launch.cfg` file, which only includes commands that I want reset every launch (cl_crosshaircolor, fps_max, r_dynamic, etc). This lets me change settings without them resetting every time I restart the game. Some commands (r_dynamic in particular) have to be executed on launch or they will reset to the default value.
 
 - `+exec _launch` - Executes my launch options file (sets fps_max and loads my commands).
 
