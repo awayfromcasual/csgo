@@ -15,7 +15,7 @@ Here is a list of the files in this repository:
 
 - `_autoexec.cfg` - This is my autoexec. It contains all of my personal settings (binds, sensitivity, crosshair, etc).
 - `_commands.cfg` - This containes bindable aliases like the jumpthrow script, and shortcuts for using console commands like clear, disconnect, and quit.
-- `_launch.cfg` - This is a file I use to manage commands I want executed on launch, like `exec _commands`, which loads all my custom aliases. I use a dedicated .cfg file for this so I can change certain settings without opening Steam (specifically fps_max and fps_max_menu).
+- `_launch.cfg` - This is a file I use to manage commands I want executed on launch, like `exec _commands`, which loads all my custom aliases. I use a dedicated .cfg file for this to avoid clogging the Steam launch options box.
 - `_1v1-ak.cfg` - Config file for setting up a 1v1 server where the default weapons are AKs and deagles.
 - `_1v1-default.cfg` - Config file for setting up a 1v1 server.
 - `_practice.cfg` - Config file for setting up a practice server (max money, infinite ammo, grenade trajectory, etc).
