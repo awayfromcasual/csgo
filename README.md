@@ -59,7 +59,7 @@ Here are my video settings:
 	Global Shadow Quality:                  MEDIUM
 	Model / Texture Detail:                 HIGH
 	Texture Streaming:                      DISABLED
-	Effect Detail:                          HIGH
+	Effect Detail:                          LOW
 	Shader Detail:                          HIGH
 	Boost Player Contrast:                  ENABLED
 	Multicore Rendering:                    ENABLED
