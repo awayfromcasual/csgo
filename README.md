@@ -88,3 +88,15 @@ I also use an add-on called Simple Radar. Simple Radar a customization that repl
 To use Simple Radar, copy the files from the download into this folder:
 
 `\...\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\resource\overviews`
+
+## FPS Fix
+
+If you're having FPS drops, this might help:
+
+- Go to Steam -> Settings
+- Go to Web Browser
+	- Delete cache
+	- Delete cookies
+- Go to Downloads
+	- Clear download cache
+- Restart Steam
