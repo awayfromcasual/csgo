@@ -1,11 +1,10 @@
 # Filepaths
 
-- `\...\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\cfg`
-- `\...\Steam\userdata\<your steam id>\730\local\cfg`
+	\...\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\cfg
 
 ## Launch Options
 
-`-high -nojoy -novid -d3d9ex -tickrate 128 +exec _launch`
+	-high -nojoy -novid -d3d9ex -tickrate 128 +exec _launch
 
 ## Graphics Settings
 
@@ -35,7 +34,7 @@
 
 [Simple Radar 5.2](https://readtldr.gg/simpleradar-download) (Password: **gooseman**)
 
-`\...\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\resource\overviews`
+	\...\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\resource\overviews
 
 ## FPS Fix
 
